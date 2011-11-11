@@ -1,0 +1,17 @@
+#addMenuInfo
+  {
+    position: absolute;
+    visibility: hidden;
+    top: 0px;
+    left: 0px;
+    width: 160px;
+    background-color: #FFFDB0;
+    border: 1px #c0c0c0 solid;
+    padding: 4px;
+    
+    text-align: left;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    color: #000000;
+  }

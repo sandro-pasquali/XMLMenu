@@ -1,0 +1,23 @@
+<div id="menuContainer" styleSheet="menu.css" iconSet="defaultIcons.xml">
+  <div class="rootElement" folderID="">
+    <div class="subElementLabel" state="closed" folderID="">Root</div>
+	    <div class="element" folderID="">Element</div>
+	    <div class="element" folderID="">Element</div>
+      <div class="subElement" folderID="">
+        <div class="subElementLabel" state="closed" folderID="">Sublevel</div>
+	      <div class="element" folderID="">Element</div>
+			  <div class="element" folderID="">Element</div>
+        <div class="subElement" folderID="">
+		      <div class="subElementLabel" state="closed" folderID="">Sublevel</div>
+	        <div class="element" folderID="">Element</div>
+	        <div class="element" folderID="">Element</div>
+	        <div class="element" folderID="">Element</div>
+	        <div class="element" folderID="">Element</div>
+        </div>
+        <div class="element" folderID="">Element</div>
+      </div>
+    <div class="element" folderID="">Element</div>
+    <div class="element" folderID="">Element</div>
+  </div>
+</div>
+

@@ -1,0 +1,119 @@
+.r_
+  {
+	  /* optional */
+    cursor: pointer;
+    cursor: hand;
+	  white-space: nowrap;
+	  
+		margin: 0px;
+		margin-bottom: 3px;
+		padding: 0px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 9px;
+		color: #633105; 
+		
+		border-bottom: 1px #DFDFDF solid;
+		padding-left: 4px;
+		border-left: 2px #959595 solid;
+		
+		width: 180px;
+  }
+  
+.s_ 
+  {
+	  /* obligatory */
+	  position: absolute;
+	  visibility: hidden;
+		
+	  /* optional */
+    cursor: pointer;
+    cursor: hand;
+	  padding-left: 11px;
+	  padding-top: 2px;
+	  white-space: nowrap;
+  }
+  
+.e_ 
+  {
+	  /* obligatory */
+	  position: absolute;
+	  visibility: hidden;
+		
+	  /* optional */
+	  padding-left: 11px;
+	  padding-top: 2px;
+	  white-space: nowrap;
+  }
+  
+.selectedBranchElement
+  {
+    cursor: pointer;
+    cursor: hand;
+	  white-space: nowrap;
+		color: #0000ff; 
+		background-color: #c0c0c0;
+  }
+  
+.nullClass
+  {
+  }
+  
+.selectedLeafElement
+  {
+    cursor: pointer;
+    cursor: hand;
+	  white-space: nowrap;
+		color: #ff0000; 
+  }
+
+  
+.s_ span
+  {
+    font-weight: normal;
+    white-space: normal;
+  }
+  
+ 
+.e_ a 
+  {
+		margin: 0px;
+		margin-bottom: 1px;
+		padding: 0px;
+		padding-left: 2px;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		font-size: 9px;
+		color: #3EA800; 
+		text-decoration: none;
+		width: 180px;
+  }
+	
+.e_ a:hover 
+  {
+		color: #ffffff;
+		background-color: #3EA800;
+		text-decoration: none;
+		width: 180px;
+  }
+  
+.e_ a span
+  {
+    font-weight: normal;
+    padding-bottom: 4px;
+  }
+  
+#menuContainer IMG
+  {
+    width: 10px;
+    height: 10px;
+    padding-right: 2px;
+  }
+  
+.schema PRE
+  {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Arial, Verdana, Tahoma;
+  }
+  

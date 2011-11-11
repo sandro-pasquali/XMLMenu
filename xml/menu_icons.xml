@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<div id="menuContainer" styleSheet="css/menu.css" iconSet="xml/testIcons.xml">
+  <div class="rootElement">
+    <div onclick="MenuRef.activate(this)" state="closed" icon="invoices">ROOT A</div>
+	    <div class="element" icon="surveys">Element</div>
+	    <div class="element" icon="surveys">Element</div>
+      <div class="subElement">
+        <div onclick="MenuRef.activate(this)" state="closed" icon="sales_reps">SUBLEVEL</div>
+	      <div class="element" icon="reports">Element</div>
+			  <div class="element" icon="reports">Element</div>
+        <div class="subElement">
+		      <div onclick="MenuRef.activate(this)" state="closed" icon="clients">SUBLEVEL</div>
+	        <div class="element" icon="surveys">Element</div>
+	        <div class="element" icon="clients">Element</div>
+	        <div class="element" icon="reports">Element</div>
+	        <div class="element" icon="competition">ddd</div>
+        </div>
+        <div class="element" icon="clients">Element</div>
+      </div>
+    <div class="element" icon="competition">Element</div>
+    <div class="element" icon="competition">Element</div>
+  </div>
+</div>
+

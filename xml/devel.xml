@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<makethisarootnode class="menuContainerZ" styleSheet="css/menu.css" iconSet="xml/testIcons.xml">
+
+	<makethisarootelement id="shaba" class="r_" title="ARTICLES" iconState="closed" icon="invoices" >
+	
+	  <snrub class="e_" id="shaba1">just data
+	  </snrub>
+	  
+	  <snrub class="e_" id="shaba2" />
+	  
+	  <snrub class="e_" id="shaba3"></snrub>
+	  
+	  
+	  <makethisasubelement class="s_" title="SUB ELEMENT 1" iconState="closed" icon="invoices" id="shaba4">
+	  
+	  
+	  <makethisasubelement class="s_" title="NULL SUB ELEMENT" id="unique_id">
+	  </makethisasubelement>
+	  
+	  
+			<snrub class="e_" icon="surveys" id="shaba5">
+			
+			<![CDATA[
+			
+			  <a href="sample_article_menu.html" id="shaba6">subelementcomment <!-- comment --> 1</a>
+			  
+			]]>
+			</snrub>
+	  
+	  
+			<snrub class="e_" id="shaba7"><![CDATA[
+			
+			  <a href="sample_article_menu.html" id="shaba8">subelement 1</a>
+			  
+			]]>
+			</snrub>
+			
+			<snrub class="e_" id="shaba9"><![CDATA[
+			
+			<a href="sample_article_menu.html" id="shaba10">subelement 1</a>
+			
+			]]>
+			</snrub>
+			
+	  </makethisasubelement>
+	  
+	  
+		  <snrub class="e_" id="shaba11"><![CDATA[ 
+	  
+	  <a href="#">root 1 element bottom</a> 
+	  
+	  ]]>
+	  </snrub>
+
+	</makethisarootelement>
+	
+
+
+
+
+
+	
+	<makethisarootelement class="r_" title="ARTICLES2" id="shaba45">
+	
+	  <snrub class="e_" id="shaba46"><![CDATA[
+		
+	  <a href="#">bottom root 1</a>
+	  
+	  ]]>	  
+	  </snrub>
+	
+	</makethisarootelement>
+	
+</makethisarootnode>

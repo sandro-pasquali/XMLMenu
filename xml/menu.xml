@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<div class="menuContainer" styleSheet="css/menu.css" iconSet="xml/testIcons.xml">
+	<div class="rootElement" title="ARTICLES">
+	  <div class="element"><![CDATA[ <a href="#">TEEN VOICES</a> ]]></div>
+	  <div class="subElement" title="PREGNANCY AND BIRTH">
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">birth activism</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">birth preparation</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">birth stories</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">cesarean and VBAC</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">midwives and doulas</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">pregnancy and birth loss</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">month by month</a> ]]></div>
+			<div class="element"><![CDATA[ <a href="sample_article_menu.html">homebirth</a> ]]></div>
+	  </div>
+	</div>
+</div>
+

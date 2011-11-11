@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+<title>menu</title>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) Unified Applications Inc." />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+<script type="text/javascript" src="UI/DOM.js"></script>
+<script type="text/javascript" src="UI/$.js"></script>
+<script type="text/javascript" src="UI/Forms.js"></script>
+<script type="text/javascript" src="UI/Cookies.js"></script>
+<script type="text/javascript" src="UI/Encryption.js"></script>
+<script type="text/javascript" src="UI/XMLHTTP.js"></script>
+<script type="text/javascript" src="UI/Loader.js"></script>
+<script type="text/javascript" src="UI/Components.js"></script>
+<script type="text/javascript" src="UI/Controllers.js"></script>
+
+<script language="Javascript">
+
+function reloadMenu()
+  {
+    $$MenuRefZ.reload();
+  }
+
+function init()
+  {
+	//netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");
+
+	  // disable text selection in IE
+	  document.onselectstart = function() { return false; }
+		// disable text selection in others
+		document.onmousedown = function() { return false; }
+		document.onclick = function() { return true; }
+
+		$.register('Forms');
+		$.register('Cookies');
+		$.register('Encryption');
+    $.register('Components');
+    $.register('XMLHTTP');
+    $.register('DOM');
+    $.register('Loader');
+    $.register('Controllers');
+		$.setAccessKey('hash');
+		$.start();	
+
+    //load the menu
+    $$MenuRef = $.Queue.add($.Components.build('menu','xml/sample.xml','mContainer','menuContainer'));
+    $$MenuRef.load();
+    
+    $$MenuRefZ = $.Queue.add($.Components.build('menu','xml/devel.xml','mContainerZ','menuContainerZ'));
+    $$MenuRefZ.load();
+
+controller = $.Controllers.build('documentLevel');
+
+  }
+	
+</script>
+
+</head>
+<body onload="init();">
+<div id="test3" selectable="true" draggable="true" dragType="layer">here2</div>
+<div id="test4" selectable="true" >beer2</div>
+
+<button value="reload" onclick = "reloadMenu();">text here</button>
+
+<div class="container" id="mContainer"></div>
+<div class="containerZ" id="mContainerZ"></div>
+
+</body>
+</html>

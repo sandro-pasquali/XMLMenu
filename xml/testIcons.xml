@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<IconSet id="theSetId">
+
+<icon id="invoices" location="images/" fileName="invoices" extension="gif" className="icon" />
+<icon id="sales_reps" location="images/" fileName="sales_reps" extension="gif" className="icon" />
+<icon id="clients" location="images/" fileName="clients" extension="gif" className="icon" />
+<icon id="surveys" location="images/" fileName="surveys" extension="gif" className="icon" />
+<icon id="competition" location="images/" fileName="competition" extension="gif" className="icon" />
+<icon id="reports" location="images/" fileName="reports" extension="gif" className="icon" />
+
+<icon id="closed" location="images/" fileName="closed" extension="gif" className="iconControlClosed" />
+<icon id="open" location="images/" fileName="open" extension="gif" className="iconControlOpen" />
+
+</IconSet>

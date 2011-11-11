@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+<title>embedded</title>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="ROBOTS" content="ALL" />
+<meta name="Copyright" content="Copyright (c) Unified Applications Inc." />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+
+<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+<script language="Javascript">
+
+function reloadMenu()
+  {
+    $$dMenuRef.reload();
+  }
+
+function init()
+  {
+	//netscape.security.PrivilegeManager.enablePrivilege("UniversalBrowserRead");
+
+	  // disable text selection in IE
+	  document.onselectstart = function() { return false; }
+		// disable text selection in others
+		document.onmousedown = function() { return false; }
+		document.onclick = function() { return true; }
+
+    $ = top.$;
+
+    //load the menu
+    $$dMenuRef = $.Queue.add($.Views.build('menu','xml/devel.xml','mContainer','menuContainer',document));
+    $$dMenuRef.load('$$dMenuRef');
+  }
+	
+</script>
+
+</head>
+<body onload="init()">
+
+<button value="reload" onclick = "reloadMenu();">text here</button>
+
+<div class="container" id="mContainer"></div>
+<div class="container" id="mContainer2"></div>
+
+</body>
+</html>

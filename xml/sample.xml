@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+
+<Z id="menu" class="menuContainer" styleSheet="css/menu.css" iconSet="xml/testIcons.xml">
+
+	<Z class="r_" title="ARTICLES" id="a1">
+	  <Z class="e_"><![CDATA[<a href="#">TEEN VOICES</a>]]></Z>
+	  <Z class="s_" title="PREGANCY AND BIRTH" id="a2">
+			<Z class="e_">birth activism</Z>
+			<Z class="e_">birth preparation</Z>
+			<Z class="e_">birth stories</Z>
+			<Z class="e_">cesarean and VBAC</Z>
+			<Z class="e_">midwives and doulas</Z>
+			<Z class="e_">pregnancy and birth loss</Z>
+			<Z class="e_">month by month</Z>
+			<Z class="e_">homebirth</Z>
+	  </Z>
+	
+		<Z class="s_" title="GROWING CHILD" id="a3">
+			<Z class="e_">Thimerosol and autism</Z>
+			<Z class="e_">child health</Z>
+			<Z class="e_">consumerism</Z>
+			<Z class="e_">discipline</Z>
+			<Z class="e_">education</Z>
+			<Z class="e_">family and society</Z>
+			<Z class="e_">family time</Z>
+			<Z class="e_">food</Z>
+			<Z class="e_">toddlers</Z>
+			<Z class="e_">vaccines</Z>
+		</Z>
+		
+		<Z class="s_" title="BODY AND SOUL" id="a4">
+			<Z class="e_">natural soothers</Z>
+			<Z class="e_">higher ground</Z>
+			<Z class="e_">bodywise</Z>
+			<Z class="e_">couples</Z>
+			<Z class="e_">grief and trauma</Z>
+			<Z class="e_">inspiring stories</Z>
+		</Z>
+		
+		<Z class="s_" title="NEW BABY" id="a5">
+			<Z class="e_">adoption</Z>
+			<Z class="e_">babywearing</Z>
+			<Z class="e_">bonding</Z>
+			<Z class="e_">breastfeeding</Z>
+			<Z class="e_">circumcision</Z>
+			<Z class="e_">dads</Z>
+			<Z class="e_">diapers</Z>
+			<Z class="e_">sleep</Z>
+		</Z>
+	</Z>
+	
+	<Z class="r_" title="DISCUSSION BOARDS" id="a6">
+	    <Z class="s_" title="PARENTING" id="a7">
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=35">parenting issues</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=328">surviving abuse</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=36">gentle discipline</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=37">bed and nighttime parenting</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=32">life with a babe</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=31">toddlers</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=65">the childhood years</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=39">preteens and teens</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=40">dads</a>]]></Z>
+	    </Z>
+	    
+	    <Z class="s_" title="PREGNANCY AND BIRTH" id="a8"> 
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=68">fertility</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=19">I'm pregnant</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=213">birth and beyond</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=28">postpartum depression</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=22">pregnancy and birth loss</a>]]></Z>
+	    </Z>
+	    
+	    <Z class="s_" title="BREASTFEEDING" id="a9">
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=27">breastfeeding</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=310">breastfeeding beyond infancy</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=305">child-led weaning</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=25">support and advocacy</a>]]></Z>
+	    </Z>
+	    
+	    <Z class="s_" title="HEALTH" id="a10">
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=45">health and healing</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=264">fitness and weight</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=267">nutrition</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=47">vaccinations</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=44">the case against circumcision</a>]]></Z>
+	    </Z>
+	    
+	    <Z class="s_" title="EDUCATION" id="a11">
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=51">learning at school</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=50">learning at home</a>]]></Z>
+	    </Z>
+	    
+	    <Z class="s_" title="NATURAL FAMILY LIVING" id="a12">
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=14">activism</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/mdc/babywearing_frontpage.html">babywearing</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=15">books, music and media</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=66">crafts</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/mdc/diapering_frontpage.html">diapering</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=10">diggin' in the earth</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=64">grief and loss</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/mdc/naturalhomeandbody_frontpage.html">mindful home management</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=281">mothers writing group</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/discussions/forumdisplay.php?f=12">personal growth</a>]]></Z>
+		    <Z class="e_"><![CDATA[<a href="/mdc/wahmwell_frontpage.html">WAHM well</a>]]></Z>
+	    </Z>
+	</Z>
+	
+	<Z class="r_" title="EXPERTS" id="a13">
+	  <Z class="e_"><![CDATA[<a href="#">Question of the Week!</a>]]></Z>
+	 
+	  <Z class="s_" title="LIST OF EXPERTS" id="a14">
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Enola Aird</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Kathi Barber</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Kathleen Bruce</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Sarah J. Buckley</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Rahima Baldwin Dancy</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Barbara Loe Fisher</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Dr. Nancy Gahles</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Jan Hunt</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Philip Incao</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Joe Kelly</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Gurmukh Kaur Khalsa</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Sheila Kitzinger</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Herbert Kohl</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Michele Mason</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Marilyn Milos</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Cynthia Good Mojab</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Michel Odent</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Jeanne Ohm</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Linda Folden Palmer</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Erin Pavlina</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Mindy Pennybacker</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Karen Salt</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Laura Schmitt</a>]]></Z>
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Elaine Stillerman</a>]]></Z>   
+	    <Z class="e_"><![CDATA[<a onmouseover="showExpertInfo(this)" href="#">Sherri J. Tenpenny</a>]]></Z> 
+		</Z>  
+	 
+	</Z>
+
+
+</Z>
